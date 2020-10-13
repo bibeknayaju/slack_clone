@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+body {
+  --slack-color: #3f0f40;
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
+}
+
+.app__welcome {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  flex: 0.9;
+}
+
+.app__h1 {
+  padding: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(253, 253, 255);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.29);
+}
+
+.app__h1>h1,
+h2,
+h3 {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 2px;
+}
+
+.app__h1>h1 {
+  font-size: 30px;
+  font-weight: 550;
+  font-style: unset;
+}
+
+.app__h1>h3 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.app__h1>h2 {
+  font-weight: 450;
+}
